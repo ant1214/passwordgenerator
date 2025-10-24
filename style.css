@@ -45,7 +45,7 @@ h1::after{
     position: absolute;
     bottom: 0;
     height: 3px;
-    background: linear-gradient(90deg,var(--primary-color),var(--secondary-color));
+    background: linear-gradient(90deg,#FFD700,#0077BE);
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
@@ -170,7 +170,7 @@ input[type="checkbox"]:checked::after{
 button{
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(45deg,var(--primary-color),var(--secondary-color));
+    background: linear-gradient(45deg,#FFD700,#0077BE);
     color: white;
     font-size: 1rem;
     font-weight: 600;
